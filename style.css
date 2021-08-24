@@ -1,0 +1,95 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+h1 {
+  font-family:  Helvetica;
+  text-align: center;
+  padding-top:10px ;
+}
+.logo {
+  height: 30px;
+}
+#container {
+  background-image: url("images/chat-bg.jpg");
+  height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 3px 4px;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: whitesmoke;
+
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px;
+}
+
+.left {
+  width: auto;
+  float: left;
+  clear: both;
+}
+
+.leftside {
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+.rightside {
+  width: 50%;
+  float: right;
+  clear: both;
+}
+
+.right {
+  width: auto;
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: flex;
+  justify-content: space-around;
+}
+#inputBar {
+  box-shadow: 0px 4px 3px;
+  border-radius: 0px 10px 0px 10px;
+  width: 90%;
+  border: 1px solid #69bff8;
+}
+
+#send-btn {
+  padding: 15px 30px;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  border: 1px solid;
+  box-shadow: 0 3px 4px;
+}
+
+.join-alert {
+  text-align: center;
+  margin: 30px;
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+}
